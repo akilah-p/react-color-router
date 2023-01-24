@@ -1,3 +1,5 @@
-.background {
-    
+.main {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
 }
