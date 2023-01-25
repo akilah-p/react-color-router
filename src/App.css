@@ -1,0 +1,8 @@
+.not-found {
+    text-align: center;
+    font-size: 100px;
+    background-image: url(https://media.giphy.com/media/l41YkFIiBxQdRlMnC/giphy.gif);
+    background-repeat:repeat;
+    height: 100vh;
+    color:white;
+}
