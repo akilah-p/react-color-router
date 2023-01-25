@@ -1,13 +1,14 @@
 .main {
     height: 100vh;
-    font-family: Arial;
-    text-align: center;
-    justify-content:center;
-    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-P {
-    font:300;
-    justify-content: center;
-    
+h2 { 
+    font-size:50px;
+    color:black;
+    text-align: center;
+    margin:0;
+    padding:0;
 }

@@ -1,24 +1,27 @@
-
-
-/* .red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.green {
-    background-color:green;
-} */
-
-ul {
-    display:flex;
+.header {
+    display: flex;
+    align-content: center;
     justify-content: space-evenly;
-    list-style-type:none;
+    background-color: green;
+    height: 50px;
+    list-style-type: none;
+    border: 20px;
+    border-style: double;
+
     
 }
 
-NavLink {
-    text-decoration: none;
-} 
+.active {
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+.yellow, .red, .blue {
+    font-weight: 100px;
+}
+
+ul { 
+    margin: 0;
+}
