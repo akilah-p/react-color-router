@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header/>     
       <Switch>
-        <Route path="/rbg/:red/:green/:blue">
+        <Route path="/rbg/:yellow/:red/:blue">
           <Main />
         </Route>
       </Switch>

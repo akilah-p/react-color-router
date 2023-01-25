@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom';
 import './Main.css';
 
 export default function Main() {
-  const { red, green, blue } = useParams();
+  const { r, g, b } = useParams();
   return (
     <>
-      <div className="main" style={{ background: `rgb(${red}, ${green}, ${blue})` }}>
-        <span className="rgb"><p>RGB</p>({red}, {green}, {blue})</span>
+      <div className="main" style={{ background: `rgb(${r}, ${g}, ${b})` }}>
+        <span className="rgb"><p>RGB</p>({r}, {g}, {b})</span>
       </div>
     </>
   );
