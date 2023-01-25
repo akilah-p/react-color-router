@@ -1,5 +1,13 @@
 .main {
     height: 100vh;
-    margin: 0;
     font-family: Arial;
+    text-align: center;
+    justify-content:center;
+    
+}
+
+P {
+    font:300;
+    justify-content: center;
+    
 }

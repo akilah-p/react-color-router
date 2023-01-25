@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <>
       <div className="main" style={{ background: `rgb(${red}, ${green}, ${blue})` }}>
-      RGB({red}, {green}, {blue})
+        <span className="rgb"><p>RGB</p>({red}, {green}, {blue})</span>
       </div>
     </>
   );
